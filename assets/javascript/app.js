@@ -4,7 +4,7 @@ var actions = ["Santa", "Christmas Trees", "Christmas Lights", "The Grinch", "Ch
 // Creating Functions & Methods
 // Function that displays all gif buttons
 function displayGifButtons(){
-    $("#gifButtonsView").empty(); // erasing anything in this div id so that it doesnt duplicate the results
+    $("#gifButtonsView").empty(); 
     for (var i = 0; i < actions.length; i++){
         var gifButton = $("<button>");
         gifButton.addClass("action");
